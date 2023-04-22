@@ -1,0 +1,62 @@
+.about{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content:flex-start;
+    background-image: url('../../../assets/about.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    
+}
+.about .side{
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    background-color: hsla(160, 100%, 75%, 0.6);
+    
+}
+.about .side p{
+   margin-top: 1rem;
+    text-align:left;
+    font-size: 1.02rem;
+    font-weight: 900;
+    line-height: 1.4rem;
+
+}
+
+.about .side img{
+    width: 10rem;
+    height: 8rem;
+    border-radius: 100px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    border-left: 2px dotted black;
+    padding: 0px 1rem;
+    text-align: justify;
+    background-color: rgba(93, 219, 203, 0.6);
+    font-size: 1.06rem;
+    font-weight:bolder;
+    line-height: 1.5rem;
+    color: rgb(59, 77, 232);
+
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    /* text-decoration:underline; */
+    color: aliceblue;
+}
+.main p{
+    margin: .3rem 0px;
+}
+.idea{
+    margin-top: 1.5rem;
+}
+ul{
+    margin-left: 1.5rem;
+}
