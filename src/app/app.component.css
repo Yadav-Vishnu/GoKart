@@ -1,15 +1,43 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
-    
+    justify-content: space-between;
     width: 100%;
     height: 100vh;
-   
     background-image: url('src/assets/kart.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: none;
     z-index: -1;
+}
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(136, 87, 221, 0.693);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+li {
+    list-style: none;
+    color: black;
+}
+
+a {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    color: black;
 }
