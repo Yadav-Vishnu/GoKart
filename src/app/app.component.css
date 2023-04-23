@@ -10,6 +10,6 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: none;
-
+    z-index: -1;
 
 }
